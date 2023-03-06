@@ -1,0 +1,45 @@
+.Wapperbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.top-btn {
+  width: 6.5vh;
+  height: 6.5vh;
+  color: rgb(216, 209, 196);
+  border-radius: 50%;
+  position: fixed;
+  bottom: 11vmin;
+  left: 8vmin;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media (max-width:370px) {
+  .top-btn {
+    bottom: 13vmin;
+    left: 8vmin;
+  }
+}
+
+.logoScrollTop {
+  top: 4vh;
+  left: -1.3vh;
+  height: 6vh;
+  position: relative;
+  border: 2px solid rgb(185, 202, 199);
+  border-radius: 17%;
+  box-shadow: 1px 1px 5px rgb(195, 190, 184);
+  transition: 200ms ease;
+}
+
+.logoScrollTop:hover {
+  transform: scale(108%);
+
+
+}

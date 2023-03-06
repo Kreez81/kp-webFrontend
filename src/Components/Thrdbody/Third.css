@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Libre&display=swap');
+.Thrdtop{
+    
+    height: 175vh;
+    width: 100%;
+    background: linear-gradient(360deg, #38ae88, rgb(27, 133, 168));
+    border-bottom: solid 3px rgb(0, 0, 0);
+}
+@media (max-width:60vh){
+    .Thrdtop{
+        height: 150vh;
+    }
+}
+.hobbPage{
+    height: 140vh;
+    margin: 0 20%;
+    top: 10px;
+    position: relative;
+}
+
+.hobbHead{
+    font-size: clamp(2vh, 2rem + 4vw,11vmin);
+    font-weight: 700;
+    position: relative;
+    top: 20px;
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(32, 28, 28);
+} 
+.gameBlock{
+    display: inline-table;
+    width: 29vmax;
+    height: 33.5vmax;
+    position: relative;
+    top: 1vh;
+    margin-top: 4vh;
+    margin-right: 12px;
+    margin-bottom: 6vh;
+    /* background-color: #2A2734; */
+    /* text-align: center; */
+}
+.paintBlock{
+    width: 29vmax;
+    height: 33.5vmax;
+    position: relative;
+    display: inline-table;
+    top: 2px;
+    margin-bottom: 6vh;
+    /* background-color: #2A2734; */
+    /* text-align: center; */
+}
+.animeBlock{
+    width: 29vmax;
+    height: 33.5vmax;
+    position: relative;
+    left: 25%;
+    top: 20px;
+    /* background-color: #2A2734; */
+    /* text-align: center; */
+}
+@media (max-width:60vh){
+    .animeBlock{
+          left: 0%;
+          top: 0%;
+    }
+}
+.gameHead{
+    font-family: 'Press Start 2P', cursive;
+    margin: 0%;
+    margin-bottom: 5px;
+    font-size: 4.8vmin;
+    letter-spacing: -2px;
+    /* color: #9B87FE; */
+    text-shadow: rgb(201, 85, 214) 2px 2px 8px;
+}
+.paintHead{
+    font-family: 'Averia Libre', cursive;
+    margin: 0%;
+    /* margin-bottom: 2px; */
+    /* letter-spacing: .5px; */
+    font-size: 5.5vmin;
+    font-weight: 800;
+    text-shadow: rgb(162, 203, 67) 2px 2px 5px;
+}
+.animeHead{
+    font-family: 'Bangers', cursive;
+    margin: 0%;
+    margin-bottom: 2px;
+    /* margin-left: 20vw; */
+    letter-spacing: 1.5px;
+    font-size: 5.2vmin;
+    font-weight: 500;
+    text-shadow: rgb(231, 121, 38) 2px 2px 5px;
+}
+.gameIn{
+    height: 100%;
+    width: 100%;
+    /* background-color: #2A2734; */
+    background-image: url("../../Assets/BP\ wall.jpg");
+    border-radius: 3.5%;
+    box-shadow: 4px 4px 18px rgb(207, 80, 221);
+    overflow: hidden;
+}
+.paintIn{
+    height: 100%;
+    width: 100%;
+    /* background-color: #2A2734; */
+    background-image: url("../../Assets/P\ wall.jpg");
+    border-radius: 3.5%;
+    box-shadow: 3px 3px 18px rgb(162, 203, 67);
+    overflow: hidden;
+}
+.animeIn{
+    height: 100%;
+    width: 100%;
+    /* background-color: #2A2734; */
+    background-image: url("../../Assets/A\ wall.jpg");
+    border-radius: 3.5%;
+    box-shadow: 4px 4px 18px rgb(242, 146, 12);
+    overflow: hidden;
+}
+.ButtthrU{
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    height: 15vh;
+    width: 11vh;
+    top: 7vh;
+    margin-top: 6.6vh;
+    margin-bottom:76vh ;
+    right: 7.5vh;
+    font-size: 5vh;
+    color: azure;
+    background: linear-gradient(to top, #7F5A83, #0D324D);
+    border-radius: 10%;
+    border: 4px solid rgb(20, 19, 19);
+    box-shadow: 0 4px 5px rgb(0,0,0,0.15);
+    cursor: pointer;
+}
+.ButtthrD{
+    display: flex;
+    position: sticky;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    height: 15vh;
+    width: 11vh;
+    top: 78vh;
+    margin-top: 76vh;
+    margin-right: -3.5vh;
+    margin-bottom: 6vh;
+    font-size: 5vh;
+    background: linear-gradient(180deg, rgb(233, 138, 138) 0%, rgb(229, 164, 65) 100%);
+    border-radius: 10%;
+    border: 4px solid rgb(20, 19, 19);
+    box-shadow: 0 4px 5px rgb(0,0,0,0.25);
+    cursor: pointer;
+}
+@media(max-width:370px){
+    .ButtthrU{
+        height: 6.5vh;
+        width: 6.5vh;
+        top: 81vh;
+        margin-top: 66vh;
+        margin-bottom: 15.5vh;
+        right: 3vh;
+    }
+    .ButtthrD{
+        height: 6.5vh;
+        width: 6.5vh;
+        top: 91vh;
+    }
+}

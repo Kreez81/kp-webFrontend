@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+.Formline{
+    display: flex;
+    position: absolute;
+    background: transparent;
+    border: none;
+    align-items: center;
+    height: 3vh;
+    font-size: 2vh;
+    top: 465vh;
+    margin-top: 2vh;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+.Formline:hover{
+    background-color: rgb(235, 196, 149);
+    border-radius: 6px;
+    
+}
+@media(max-width:370px){
+    .Formline{
+        top: 443vh;
+        left: -10.5vh;
+        font-size:2.1vh ;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+}
+.Formpage{
+    height: 100.1vh;
+    width: 100%;
+    animation-name: backgroundColorPalette;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+    color: azure;
+}
+.Formlink{
+    text-decoration: none;
+    color: black;
+}
+.Closebutt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    float: right;
+    font-size: calc(1vh + 5vmin);
+    border: none;
+    cursor: pointer;
+    top: 4vh;
+    right:4vh;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+@keyframes backgroundColorPalette {
+    0% {
+      background: #9b5e4a;
+    }
+    25% {
+      background: #4e927a;
+    }
+    50% {
+      background: #5a8744;
+    }
+    75% {
+      background: #bc8e4e;
+    }
+    100% {
+      background: #a4554f;
+    }
+  }
+.Form{
+    position: relative;
+    top: 10vh;
+    height: 65vh;
+    /* background-color: rgb(58, 51, 59); */
+    backdrop-filter: blur(5px);
+    margin: 0 20%;
+}
+.Formbox{
+    position: relative;
+    height: 100%;
+    width: 60%;
+    margin-left: 19vmax;
+}
+.Formhead{
+    font-family: 'Indie Flower', cursive;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 5vh;
+    margin-bottom: 2vh;
+    font-weight: bold;
+}
+
+.inputname{
+    display: flex;
+    position: relative;
+    font-size: 3vh;
+    top: 1.4vh;
+    font-family: 'Averia Libre', cursive;
+    
+}
+.mb-3{
+    position: relative;
+
+    left: 2vh; 
+    margin-bottom: 2.6vh;
+    width: 50%;
+
+}
+.inputblock{
+    height: 3.5vh;
+    width: 20vmax;
+    top: 2vh;
+    font-size: 2vh;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 0 5px 6px rgb(0,0,0,0.25);
+    border: none;
+}
+.selectblock{
+    height: 4vh;
+    width: 20.1vmax;
+    top: 2vh;
+    font-size: 2vh;
+    border-radius: 6px;
+    position: relative;
+    box-shadow: 0 4px 5px rgb(0,0,0,0.25);
+}
+.summitbutt{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-family:'Averia Libre', cursive;
+    font-weight: bold;
+    height: 3.5vh;
+    width: 40%;
+    top: 2.5vh;
+    left: 4vmax;
+    background-color: rgb(22, 20, 20);
+    color: aliceblue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.summitbutt:focus{
+    background-color: rgb(34, 39, 40);
+}
+.resetbutt{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-family:'Averia Libre', cursive;
+    height: 3vh;
+    width: 20%;
+    top: 4vh;
+    left: 7.6vmax;
+    color: aliceblue;
+    background: transparent;
+    border: none;
+    transition: .2s ease;
+    text-shadow: 0 5px 5px rgb(0,0,0,0.35);
+}
+.resetbutt:hover{
+    color: black;
+    cursor: pointer;
+}
+.Donealert{
+    position: relative;
+    display: flex;
+    font-size: 5vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 249, 215);
+    color: rgb(34, 30, 30);
+    height: 10vh;
+    width: 30vw;
+    left: 31.5vh;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+.Alertmess{
+    position: relative;
+    left: 2.5vh;
+}
+.Alertclose{
+    position: relative;
+    height: 3vh;
+    width: 4.5vh;
+    font-size: 3vh;
+    display: flex;
+    align-items: center;
+    background-color: rgb(43, 37, 37);
+    color: aliceblue;
+    float: right;
+    left: 15vh;
+    top: -2.5vh;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+@media(max-width:370px){
+    .Formbox{
+        margin-left: 24.5%;
+        /* width: 70%; */
+    }
+    .Form{
+        margin: 0%;
+    }
+    .Formhead{
+        font-size: 6vw;
+    }
+    .summitbutt{
+        left: 6vh;
+        font-size:2.2vh ;
+        font-weight: 400;
+        width: 55%;
+        height: 4vh;
+    }
+    .resetbutt{
+        left: 11.6vh;
+        font-size: 2.4vh;
+    }
+    .inputblock{
+         width: 160%;
+         height: 4vh;
+    }
+    .inputname{
+        width: 160%;
+        font-size:3.5vh;
+    }
+    .selectblock{
+        width: 163%;
+        height: 4.6vh;
+    }
+    .Donealert{
+        top: 4vh;
+        left: 16vh;
+        width: 25vh;
+        height: 7vh;
+        border-radius: 12px;
+    }
+    .Alertmess{
+        top: -.5vh;
+        left: 2vh;
+        font-size: 3.5vh;
+    }
+    .Alertclose{
+        width: 5vh;
+        left: -8.5vh;
+        top: 4vh;
+    }
+}

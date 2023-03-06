@@ -1,0 +1,29 @@
+.Apptop{
+   scroll-behavior: smooth;
+   height: 100vh;
+   /* overflow-y: scroll; */
+   /* cursor: url(),auto; */
+   
+}
+::-webkit-scrollbar{
+   width: 1rem;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(35, 33, 33);
+   }
+ ::-webkit-scrollbar-thumb{
+   background-color: rgb(152, 212, 204);
+   border-radius: 1rem;
+   border: 3px solid transparent;
+   background-clip: content-box;
+ }
+
+ ::-webkit-scrollbar-thumb:hover{
+   border: 2px solid whitesmoke;
+ }
+ 
+
+
+
+
+

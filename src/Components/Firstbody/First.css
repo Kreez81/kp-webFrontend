@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+.Firsttop{
+    /* background-color: rgba(6,30,38,1) ; */
+    background: linear-gradient(90deg, rgb(14, 62, 78) 0%, rgb(6, 32, 41) 35%, rgb(6, 32, 41) 65%, rgb(14, 62, 78) 100%);
+    height: 100vh;
+    width: 100%;
+    scroll-snap-align: start;
+    border-bottom:solid 3px black;
+    /* rgba(10,58,75,1) 38%, rgb(17, 125, 161) */
+}
+.Line1{
+    color: rgb(106, 227, 238);
+    margin-top: 1%;
+    margin-bottom: 0%;
+    margin-right: 0%;
+    font-size: 7vmin;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+    justify-content: center;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(195, 190, 184);
+    position: relative;
+    top: 10.5vh;
+    display: flex;
+    
+}
+@media(max-width:60vh){
+    .Line1{
+        right: 20px;
+    }
+    .Insideslider{
+        top: 3vh;
+    }
+    
+}
+.Butts{
+    display: inline;
+    position: relative;
+    border-radius: 15px;
+    margin-left: 4%;
+    margin-top: 12%;
+    margin-right: 12%;
+    height: 72%;
+    min-width: 28vh;
+    font-size: 8vh;
+    font-weight: 700;
+    transition: 300ms ease;
+    cursor:pointer;
+    box-shadow: 3px 4px 18px #699394 ;
+    scroll-behavior: smooth;
+}
+.Sliderbox{
+     
+     height: 55vh;
+     cursor: grab;
+     top: 13vh;
+     position: relative;
+     margin-left: 27%;
+     margin-right: 27%;
+     overflow: hidden;
+}
+.Insideslider{
+    height: 100%;
+    display: flex;
+    cursor: grab;
+    position: relative;
+}
+.Butts:nth-child(1){
+    /* background: linear-gradient(360deg, #38ae88, rgb(17, 125, 161)); */
+    background: linear-gradient(to top, #7F5A83, #0D324D);
+    font-family: 'Chakra Petch', sans-serif;
+    color: rgb(255, 255, 255);
+    
+   }
+.Butts:nth-child(1):hover{
+    border-color:  #ffb5b5;
+    
+}
+.Butts:nth-child(2){
+    background: linear-gradient(360deg, #38ae88, rgb(17, 125, 161));
+    font-family: 'Chakra Petch', sans-serif;
+    /* border: 1px solid rgb(65, 28, 28); */
+   }
+.Butts:nth-child(2):hover{
+    border-color:  #ffffff;
+}
+.Butts:nth-child(3){
+    font-family: 'Chakra Petch', sans-serif;
+    /* border-right: 5px solid rgba(6,30,38,1) ; */
+    /* background: linear-gradient(180deg, rgba(236,77,109,1) 0%, rgba(227,214,87,1) 100%); */
+    background: linear-gradient(180deg, rgba(255,151,151,1) 0%, rgba(255,182,73,1) 100%);
+    /* border: 1px solid whitesmoke; */
+   }
+.Butts:nth-child(3):hover{
+    border: 2px solid #fff47c;
+}
+.Butts:hover{
+    transform: scale(105%);
+}
+
+
+.Dragicon{
+    color: rgb(109, 202, 211);
+    position: relative;
+    font-family: 'Chakra Petch', sans-serif;
+    top: 12vh;
+    left: 43%;
+    display: inline-flex;
+    margin-top: 4px;
+    transform: scale(1.7,1.7);
+    
+}
+.FPlink{
+    color: inherit;
+    text-decoration: none;
+    padding: 16%;
+    
+}
+.FPlink:hover{
+    color: inherit;
+}
+.cursor {
+    background-color: #4ea9ff;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }

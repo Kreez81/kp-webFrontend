@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+.Mylogo{
+  height: 42px;
+  position: relative;
+  left: 7px;
+  margin-top: 28px;
+  margin-left: 1.25%;
+  display:flex;
+  border-width: 2px;
+  clear: both;
+  float: left;
+  border: 2px solid rgb(61, 222, 195);
+  border-radius: 17%;
+  transition: 200ms;
+  padding: 1.5px;
+}
+.Mylogo:hover{
+  transform: scale(108%);
+  transition: 200ms;
+  border-radius: 27%;
+  
+}
+.Navtop{
+    top:0;
+    position:relative;
+    /* background-color:  #061e26; */
+    background: linear-gradient(90deg, rgb(14, 62, 78) 0%, rgb(6, 32, 41) 35%, rgb(6, 32, 41) 65%, rgb(14, 62, 78) 100%);
+    /* background-color: black; */
+    height: 10.674vh;
+    width: 100%;
+    
+}
+.Myintro{
+    left: 14px;
+    top: 40px;
+    margin-left: .8%;
+    margin-right: .8%;
+    position:relative;
+    color: rgb(255, 255, 255);
+    font-family: 'Chakra Petch', sans-serif;
+    /* font-weight: 450px; */
+    font-size:25px;
+    display:inline-flex;
+    
+}
+.Home {
+  float: right;
+  color: rgb(61, 222, 195);
+  height: 36px;
+  width: 36px;
+  position:absolute;
+  display:inline;
+  right: 3.5%;
+  margin-top: 35px;
+  
+}
+
+
+.Tooltiptxt {
+  background-color: inherit;
+  color: aliceblue;
+  font-family: 'Chakra Petch', sans-serif;
+  float: right;
+  height: 36px;
+  width: 76px;
+  position: relative;
+  display:inline;
+  right: 6.5vmax;
+  margin-top: 35px;
+  visibility: hidden;
+}
+
+.Home:hover~.Tooltiptxt {
+  visibility: visible;
+}
+

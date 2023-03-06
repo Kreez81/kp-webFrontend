@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+.Sectop {
+    
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to top, #7F5A83, #0D324D);
+    border-bottom: solid 3px black;
+
+}
+
+h1 {
+    color: #f7f2f2;
+    margin: 0%;
+    margin-left: 3%;
+    font-size: clamp(2vh, 2rem + 4vw,10vmin);
+    max-width: 40em;
+    position: relative;
+    top: 20px;
+    text-shadow: 2px 2px 6px rgb(40, 33, 33);
+}
+
+.About {
+    font-family: 'Chakra Petch', sans-serif;
+    color: #ffb5b5;
+    margin: 0 17.5%;
+    position: relative;
+    top: 20px;
+   
+}
+
+@media (max-Width:60vh) {
+    ul{
+        top: 3vh;
+        
+    }
+    
+}
+ul {
+    position: relative;
+    list-style: none ;
+    margin-top: 30px;
+    font-size: 5.7vmin;
+    
+}
+.Strong{
+    background-image: linear-gradient(90deg, #fd9b9b,#fe6161);
+    background-size: 0% 3px;
+    background-repeat: no-repeat;
+    background-position: left bottom 5px;
+    text-decoration: none;
+    transition:  300ms ease;
+}
+.Strong:hover{
+    background-size: 100% 3px;
+    font-size: 6.5vmin;
+    color: #fd9b9b;
+    cursor:cell;
+}
+li{
+    padding-left: .5em;
+    line-height: 8vmin;
+    margin-top: 10px;
+    text-indent: -1.5em;
+}
+.Iconsli{
+    margin-right: 1.5vh;
+    position: relative;
+    top: 4px;
+    font-size: 5vmin;
+}
+.ButtsecU{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    height: 15vh;
+    width: 11vh;
+    top: 7vh;
+    right: 7.5vh;
+    font-size: 5vh;
+    background: linear-gradient(360deg, #38ae88, rgb(17, 125, 161));
+    border-radius: 10%;
+    border: 4px solid rgb(20, 19, 19);
+    box-shadow: 0 4px 5px rgb(0,0,0,0.15);
+    cursor: pointer;
+}
+.ButtsecD{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    height: 15vh;
+    width: 11vh;
+    top: 78vh;
+    right: -3vh;
+    font-size: 5vh;
+    background: linear-gradient(180deg, rgb(233, 138, 138) 0%, rgb(229, 164, 65) 100%);
+    border-radius: 10%;
+    border: 4px solid rgb(20, 19, 19);
+    box-shadow: 0 4px 5px rgb(0,0,0,0.25);
+    cursor: pointer;
+}
+@media (max-width:370px){
+    .ButtsecU{
+        height: 6.5vh;
+        width: 6.5vh;
+        top: 81vh;
+        right: 3.6vh;
+    }
+    .ButtsecD{
+        height: 6.5vh;
+        width: 6.5vh;
+        top: 90vh;
+    }
+}
