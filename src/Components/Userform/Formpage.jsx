@@ -21,7 +21,7 @@ export default function Formpage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    Axios.post('http://localhost:4000/insert', {
+    Axios.post('https://kp-webserver.adaptable.app/insert', {
       knowMe :know,
       yourName :name,
       thingLike : like,
